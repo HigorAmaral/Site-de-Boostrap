@@ -1,42 +1,60 @@
 @charset "UTF-8";
+
 /*mudança de cor no nav*/
-.navbar{
+.navbar {
     background-color: red;
     justify-content: center;
 }
+
 /*Mudança de cor e ajuste para o centro*/
-.collapse{
+.collapse {
     background-color: red;
     justify-content: center;
 }
+
 /*tamanho da logo*/
-.logo{
+.logo {
     height: 100px;
     width: 90px;
 }
+
 /*Ajustando a imagen da logo*/
-.logo img{
+.logo img {
     width: 100%;
     height: 100%;
 }
+
 /*Colocando margen no texto*/
-.p-22{
+.p-22 {
     margin-left: 5%;
 }
-/*Responsividade*/
-@media only screen and (max-width: 1000px){
 
-    iframe{
+/*Responsividade*/
+@media only screen and (max-width: 1000px) {
+
+    iframe {
         width: 100%;
         height: 40vh;
     }
-    .p-2{
+
+    .p-2 {
         flex-wrap: wrap;
     }
-    .d-flex{
+
+    .d-flex {
         width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
     }
+}
+form{
+    text-align: center;
+    color: black; 
+    height: 60%;
+    background-color: white;
+    margin-top: none;
+}
+.fundo{
+    text-align: center;
 }
